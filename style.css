@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /* header starts here  */
 nav {
   height: 54px;
@@ -16,6 +17,7 @@ nav {
   position: fixed;
   z-index: 9999;
 }
+
 .nav-logo {
   position: absolute;
   left: 1%;
@@ -40,9 +42,11 @@ nav i {
 nav a:hover {
   color: #005333;
 }
+
 nav .nav-logo:hover {
   cursor: pointer;
 }
+
 /* header ends here  */
 
 /* first container starts here  */
@@ -58,6 +62,7 @@ nav .nav-logo:hover {
   background-color: #ffff;
   position: relative;
 }
+
 .left picture img {
   width: 100%;
   height: auto;
@@ -74,6 +79,7 @@ nav .nav-logo:hover {
   left: 25%;
   text-align: center;
 }
+
 .left .left-title a {
   text-decoration: none;
   font-size: 1.6875rem;
@@ -94,6 +100,7 @@ nav .nav-logo:hover {
   transition: ease-out 0.2s;
   outline: none;
 }
+
 .right {
   width: 71%;
   height: auto;
@@ -108,17 +115,20 @@ nav .nav-logo:hover {
   background-position: center;
   background-size: cover;
 }
+
 .right .play-btn {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .left-title .left-btn:hover {
   cursor: pointer;
   box-shadow: inset 198px 0 0 0 #009e5f;
   color: #ffff;
 }
+
 /* first container ends here  */
 
 /* second container starts here  */
@@ -164,29 +174,34 @@ nav .nav-logo:hover {
   transition: ease-out 0.2s;
   outline: none;
 }
-.container-two  button:hover {
+
+.container-two button:hover {
   cursor: pointer;
   box-shadow: inset 198px 0 0 0 #009e5f;
   color: #ffff;
 }
+
 /* second container ends here  */
 
 /* third container starts here  */
 .container-three {
   position: relative;
 }
+
 .container-three .img {
   background-image: url(images/softdrink.jpeg);
   height: 84.4vh;
   width: 100%;
   background-attachment: fixed;
 }
+
 .container-three .btn {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .container-three .btn button {
   font-size: 2.4375rem;
   padding: 27px 29px 26px;
@@ -197,24 +212,28 @@ nav .nav-logo:hover {
   font-weight: 750;
   transition: all 0.4s;
 }
+
 /* third container ends here  */
 
 /* fourth container starts here  */
 .container-four {
   position: relative;
 }
+
 .container-four .img {
   background-image: url(images/cake.jpeg);
   height: 84.4vh;
   width: 100%;
   background-attachment: fixed;
 }
+
 .container-four .btn {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .container-four .btn button {
   font-size: 2.4375rem;
   padding: 27px 29px 26px;
@@ -225,24 +244,28 @@ nav .nav-logo:hover {
   font-weight: 750;
   transition: all 0.4s;
 }
+
 /* fourth container ends here  */
 
 /* fifth container starts here  */
 .container-five {
   position: relative;
 }
+
 .container-five .img {
   background-image: url(images/icecreme.jpeg);
   height: 84.4vh;
   width: 100%;
   background-attachment: fixed;
 }
+
 .container-five .btn {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .container-five .btn button {
   font-size: 2.4375rem;
   padding: 27px 29px 26px;
@@ -253,6 +276,7 @@ nav .nav-logo:hover {
   font-weight: 750;
   transition: all 0.4s;
 }
+
 /* fifth container ends here  */
 
 .container-three .btn button:hover {
@@ -264,6 +288,7 @@ nav .nav-logo:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
+
 .container-five .btn button:hover {
   transform: scale(1.1);
   cursor: pointer;
@@ -277,15 +302,18 @@ nav .nav-logo:hover {
   position: relative;
   flex: wrap;
 }
+
 .container-six .left {
   width: 50%;
   height: 90.9vh;
 }
+
 .container-six .right {
   width: 50%;
   height: 90.9vh;
   background-color: #ececec;
 }
+
 .container-six .right {
   background-image: url(images/product_glass.png);
   background-repeat: no-repeat;
@@ -293,6 +321,7 @@ nav .nav-logo:hover {
   background-position: bottom;
   background-position: calc(50% - 199px) bottom;
 }
+
 .container-six .right .title {
   color: #009e5f;
   margin: 35px 0 22px;
@@ -302,6 +331,7 @@ nav .nav-logo:hover {
   top: 10%;
   left: 8.6%;
 }
+
 .container-six .right .title .drink {
   font-size: 5.25rem;
   margin-bottom: 22px;
@@ -313,12 +343,14 @@ nav .nav-logo:hover {
   color: #818182;
   font-family: "Arial Narrow Bold", sans-serif;
 }
+
 span {
   border-radius: 20%;
   font-family: Times, "Times New Roman", serif;
   color: red;
   line-height: 0.75;
 }
+
 .container-six .left .cans {
   display: flex;
   flex-wrap: wrap;
@@ -326,23 +358,26 @@ span {
   margin-top: 13px;
   position: absolute;
 }
+
 .container-six .left .cans .right-cans img {
   position: relative;
   left: 20vw;
   transition: transform 0.2s;
 }
+
 .container-six .left .cans .left-cans img {
   position: relative;
   right: -5vw;
   transition: transform 0.1s;
 }
+
 .container-six .left .cans img:hover {
   cursor: pointer;
   opacity: 0.8;
   transform: scale(1.1);
 }
-/* sixth container ends here  */
 
+/* sixth container ends here  */
 
 /* seventh container starts here  */
 footer {
@@ -350,6 +385,7 @@ footer {
   width: 100%;
   position: relative;
 }
+
 footer .footer-img {
   background-image: url(images/footer-bg.jpg);
   height: 100vh;
@@ -358,16 +394,19 @@ footer .footer-img {
   background-position: center;
   background-size: cover;
 }
+
 .inner-img {
   position: absolute;
   top: 20%;
   right: 13%;
 }
+
 footer {
   overflow: hidden;
   height: 100vh;
   width: 100%;
 }
+
 .footer-items {
   height: 13.3vh;
   width: 58%;
@@ -376,6 +415,7 @@ footer {
   top: -16%;
   left: 21%;
 }
+
 .icons {
   display: flex;
   padding: 1.5%;
@@ -384,10 +424,12 @@ footer {
   left: 38%;
   font-size: 1.35rem;
 }
+
 .icons i {
   margin-right: 1.1em;
   cursor: pointer;
 }
+
 .footer-text {
   font-size: 0.8125rem;
   display: flex;
@@ -397,9 +439,11 @@ footer {
   cursor: pointer;
   color: #636363;
 }
+
 .footer-text p:hover {
   text-decoration: underline;
 }
+
 .copyright {
   font-size: 0.8125rem;
   text-align: center;
@@ -407,18 +451,23 @@ footer {
   padding-bottom: 0.75rem;
   color: #636363;
 }
+
 /* seventh container ends here  */
-
-
 
 @media (max-width: 767px) {
   .nav-logo img {
     height: 90px;
   }
+
+  nav {
+    width: 100vmax;
+  }
+
   nav a {
     display: none;
     position: relative;
   }
+
   nav i {
     display: block;
     font-size: 1.4rem;
@@ -426,51 +475,66 @@ footer {
     position: absolute;
     color: #ffff;
   }
-  .container-one {
-    height: calc(127vh - 54px);
+
+  .container-one,
+  .container-two {
+    height: auto;
     flex-direction: column;
-    width: 100%;
+    width: 87vw;
   }
+
   .left {
     height: 50%;
     width: 100%;
     position: relative;
+    order: 1;
   }
+
   .right {
     width: 100%;
     height: 50%;
+    order: 0;
   }
+
   .left picture img {
     object-fit: cover;
     top: -2px;
   }
+
   .left picture img:nth-child(1) {
     display: none;
   }
+
   .left picture img:nth-child(2) {
     display: block;
-  } 
+  }
+
   .left .left-title a {
     position: relative;
     top: 5vh;
     left: -13%;
   }
+
   .left .left-title button {
     position: relative;
     top: 3vh;
     left: -15%;
   }
+
   .right .play-btn img {
     height: 70px;
     width: 70px;
   }
+
   .right picture img {
     object-fit: cover;
     height: auto;
   }
+
   .right picture img:nth-child(1) {
     display: none;
   }
+
   .right picture img:nth-child(2) {
     display: block;
   }
@@ -482,9 +546,11 @@ footer {
   .right picture img:nth-child(1) {
     display: block;
   }
+
   .right picture img:nth-child(2) {
     display: none;
   }
+
   /* .left picture img:nth-child(1) {
     display: block;
   }
